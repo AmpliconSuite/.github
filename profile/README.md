@@ -18,13 +18,13 @@ Takes the outputs of AA and predicts the mechanism of focal amplification, and r
 Wraps the input preparation steps (PrepareAA.py), AA and AC analysis in one workflow containing our current best practices. Please use AmpliconSuite-pipeline to invoke AA instead of trying to run AA as a standalone module. PrepareAA applies multiple filters to ensure that the collection of seed regions AA takes as input are properly identified.
 
 ### AmpliconRepository
-AmpliconRepository.org is an online platform for community sharing of AmpliconArchitect outputs and classification files. Developed in collaboration between members of the Vineet Bafna lab, Jill Mesirov's lab and the GenePattern team at UC San Diego.
+[AmpliconRepository.org](https://ampliconrepository.org) is an online platform for community sharing of AmpliconArchitect outputs and classification files. Developed in collaboration between members of the Vineet Bafna lab, Jill Mesirov's lab and the GenePattern team at UC San Diego.
 
 ## Other utilities
 **[CycleViz](https://github.com/AmpliconSuite/CycleViz)**: Create circular visualizations of AA-identified focal amplification substructures, such as for ecDNA, and optionally show user-supplied genome track annotations. Can also support non-AA derived genome visualizations given a bed file.
 
 **[AmpliconReconstructorOM](https://github.com/AmpliconSuite/AmpliconReconstructorOM)**: Combines Bionano optical genome map assemblies with AmpliconArchitect to infer larger-scale scaffolds of the focal amplification structure.
 
-**AmpliconSuiteAggregator**: Takes AmpliconSuite-pipeline output files and prepares them for upload to AmpliconRepository.
+**[AmpliconSuiteAggregator](https://github.com/AmpliconSuite/AmpliconSuiteAggregator)**: Takes AmpliconSuite-pipeline output files and prepares them for upload to AmpliconRepository. Can be used via web interface at [genepattern.ucsd.edu](https://genepattern.ucsd.edu/gp/pages/login.jsf).
 
 
