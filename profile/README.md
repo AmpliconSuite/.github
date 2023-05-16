@@ -14,14 +14,14 @@ Performs joint analysis of SVs and copy numbers to analyze the genome structure 
 ### AmpliconClassifier (AC)
 Takes the outputs of AA and predicts the mechanism of focal amplification, and reports annotations such as the genome regions in the focal amplification, the genes present, the estimated copy numbers (bulk, not subclonal) and other properties including complexity and similarity scores.
 
-### AmpliconSuite-pipeline
+### [AmpliconSuite-pipeline](https://github.com/AmpliconSuite/AmpliconSuite-pipeline)
 Wraps the input preparation steps (PrepareAA.py), AA and AC analysis in one workflow containing our current best practices. Please use AmpliconSuite-pipeline to invoke AA instead of trying to run AA as a standalone module. PrepareAA applies multiple filters to ensure that the collection of seed regions AA takes as input are properly identified.
 
 ### AmpliconRepository
 AmpliconRepository.org is an online platform for community sharing of AmpliconArchitect outputs and classification files. Developed in collaboration between members of the Vineet Bafna lab, Jill Mesirov's lab and the GenePattern team at UC San Diego.
 
 ## Other utilities
-**CycleViz**: Circular visualizations of AA-identified focal amplification substructures, such as ecDNA and show user-supplied genome track annotations. Can also support non-AA derived genome visualizations given a bed file.
+**[CycleViz](https://github.com/AmpliconSuite/CycleViz)**: Create circular visualizations of AA-identified focal amplification substructures, such as for ecDNA, and optionally show user-supplied genome track annotations. Can also support non-AA derived genome visualizations given a bed file.
 
 **AmpliconReconstructor**: Combines Bionano optical genome map assemblies with AmpliconArchitect to infer larger-scale scaffolds of the focal amplification structure.
 
