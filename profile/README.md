@@ -7,6 +7,13 @@ At the core of AmpliconSuite is **AmpliconArchitect** (AA), a joint structural v
 
 To improve reproducibility of the outputs and simplify output interpretation, we created AmpliconSuite-pipeline, which wraps the relevant tools into a single workflow. **Please use AmpliconSuite-pipeline to invoke AmpliconArchitect**.
 
+## Quickstart
+### Analyzing your own data
+Visit [AmpliconSuite-pipeline](https://github.com/AmpliconSuite/AmpliconSuite-pipeline) to see ways to run AmpliconArchitect. This includes instructions for installation-free, web-based ways to run AmpliconArchitect, links containerized images, and instructions for standalone installation.
+
+### Viewing existing collections of results
+Visit [AmpliconRepository.org](https://ampliconrepository.org) to see publicly shared collections of AmpliconArchitect outputs.
+
 ## What tools are part of AmpliconSuite and what do they do?
 ### AmpliconArchitect (AA)
 Performs joint analysis of SVs and copy numbers to analyze the genome structure of focal amplifications and reports computational substructures. In some simple cases, the substructure will represent a complete ecDNA structure itself. Developed by Viraj Deshpande, maintained by Jens Luebeck. 
@@ -18,7 +25,7 @@ Takes the outputs of AA and predicts the mechanism of focal amplification, and r
 Wraps the input preparation steps (PrepareAA.py), AA and AC analysis in one workflow containing our current best practices. Please use AmpliconSuite-pipeline to invoke AA instead of trying to run AA as a standalone module. PrepareAA applies multiple filters to ensure that the collection of seed regions AA takes as input are properly identified.
 
 ### AmpliconRepository
-[AmpliconRepository.org](https://ampliconrepository.org) is an online platform for community sharing of AmpliconArchitect outputs and classification files. Developed in collaboration between members of the Vineet Bafna lab, Jill Mesirov's lab and the GenePattern team at UC San Diego.
+[AmpliconRepository.org](https://ampliconrepository.org) is an online platform for community sharing of AmpliconArchitect outputs and classification files. Developed in collaboration between members of Vineet Bafna's lab, Jill Mesirov's lab and the GenePattern team at UC San Diego.
 
 ## Other utilities
 **[CycleViz](https://github.com/AmpliconSuite/CycleViz)**: Create circular visualizations of AA-identified focal amplification substructures, such as for ecDNA, and optionally show user-supplied genome track annotations. Can also support non-AA derived genome visualizations given a bed file.
