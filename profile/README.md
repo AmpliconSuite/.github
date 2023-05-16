@@ -1,18 +1,18 @@
 # AmpliconSuite
 
+## Quickstart
+### Running AmpliconArchitect
+Visit [AmpliconSuite-pipeline](https://github.com/AmpliconSuite/AmpliconSuite-pipeline) to see the different ways to run AmpliconArchitect. Includes links containerized images, the no-installation web interface method, and instructions for standalone installation of AmpliconSuite-pipeline.
+
+### Viewing existing collections of results
+Visit [AmpliconRepository.org](https://ampliconrepository.org) to see publicly shared collections of AmpliconArchitect outputs.
+
 ## What is AmpliconSuite?
 AmpliconSuite is a collection of related tools for studying focal amplifications in cancer genomes. Somatic focal copy number amplifications can be mediated by extrachromsomal DNA (ecDNA), breakage fusion bridge (BFB) cycles or other complex mechanisms of genome rearrangement followed by amplification (e.g. chromothripsis + amplification).
 
 At the core of AmpliconSuite is **AmpliconArchitect** (AA), a joint structural variation (SV) and copy-number (CN) analysis tool which extracts computational substructures of genomic focal amplifications using paired-end whole genome sequencing (WGS) data. AmpliconArchitect was developed in Vineet Bafna's lab by Viraj Deshpande. The substructures reported by AA can be classified according to generative mechanism (e.g. ecDNA) using AmpliconClassifier.
 
 To improve reproducibility of the outputs and simplify output interpretation, we created AmpliconSuite-pipeline, which wraps the relevant tools into a single workflow. **Please use AmpliconSuite-pipeline to invoke AmpliconArchitect**.
-
-## Quickstart
-### Analyzing your own data
-Visit [AmpliconSuite-pipeline](https://github.com/AmpliconSuite/AmpliconSuite-pipeline) to see ways to run AmpliconArchitect. This includes instructions for installation-free, web-based ways to run AmpliconArchitect, links containerized images, and instructions for standalone installation.
-
-### Viewing existing collections of results
-Visit [AmpliconRepository.org](https://ampliconrepository.org) to see publicly shared collections of AmpliconArchitect outputs.
 
 ## What tools are part of AmpliconSuite and what do they do?
 ### AmpliconArchitect (AA)
