@@ -2,7 +2,7 @@
 
 ## Quickstart
 ### Running AmpliconArchitect
-Visit [AmpliconSuite-pipeline](https://github.com/AmpliconSuite/AmpliconSuite-pipeline) to see the different ways to run AmpliconArchitect. Includes links containerized images, the no-installation web interface method, and instructions for standalone installation of AmpliconSuite-pipeline.
+Visit [AmpliconSuite-pipeline](https://github.com/AmpliconSuite/AmpliconSuite-pipeline) to see the different ways to run AmpliconArchitect. Includes links to containerized images, the no-installation web interface, and also instructions for standalone installation of AmpliconSuite-pipeline.
 
 ### Viewing existing collections of results
 Visit [AmpliconRepository.org](https://ampliconrepository.org) to see publicly shared collections of AmpliconArchitect outputs.
@@ -24,7 +24,7 @@ Takes the outputs of AA and predicts the mechanism of focal amplification, and r
 ### [AmpliconSuite-pipeline](https://github.com/AmpliconSuite/AmpliconSuite-pipeline)
 Wraps the input preparation steps (PrepareAA.py), AA and AC analysis in one workflow containing our current best practices. Please use AmpliconSuite-pipeline to invoke AA instead of trying to run AA as a standalone module. PrepareAA applies multiple filters to ensure that the collection of seed regions AA takes as input are properly identified.
 
-### AmpliconRepository
+### [AmpliconRepository](https://github.com/AmpliconSuite/AmpliconRepository)
 [AmpliconRepository.org](https://ampliconrepository.org) is an online platform for community sharing of AmpliconArchitect outputs and classification files. Developed in collaboration between members of Vineet Bafna's lab, Jill Mesirov's lab and the GenePattern team at UC San Diego.
 
 ## Other utilities
