@@ -15,7 +15,7 @@ At the core of AmpliconSuite is **AmpliconArchitect** (AA), a joint structural v
 To improve reproducibility of the outputs and simplify output interpretation, we created AmpliconSuite-pipeline, which wraps the relevant tools into a single workflow. **Please use AmpliconSuite-pipeline to invoke AmpliconArchitect**.
 
 ## What tools are part of AmpliconSuite and what do they do?
-### AmpliconArchitect (AA)
+### [AmpliconArchitect](https://github.com/AmpliconSuite/AmpliconArchitect) (AA)
 Performs joint analysis of SVs and copy numbers to analyze the genome structure of focal amplifications and reports computational substructures. In some simple cases, the substructure will represent a complete ecDNA structure itself. Developed by Viraj Deshpande, maintained by Jens Luebeck. 
 
 ### [AmpliconClassifier](https://github.com/AmpliconSuite/AmpliconClassifier) (AC)
