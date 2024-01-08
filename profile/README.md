@@ -1,4 +1,4 @@
-# AmpliconSuite
+![AmpliconSuite logo](https://raw.githubusercontent.com/AmpliconSuite/.github/main/profile/AmpliconSuiteGithub.png)
 
 ## Quickstart
 ### Running AmpliconArchitect
