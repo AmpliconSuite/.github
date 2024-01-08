@@ -2,7 +2,7 @@
 
 ## Quickstart
 ### Running AmpliconArchitect
-- Visit [AmpliconSuite-pipeline](https://github.com/AmpliconSuite/AmpliconSuite-pipeline) to see the different ways to run AmpliconArchitect. Includes links to containerized images, the no-installation web interface, and also instructions for standalone installation of AmpliconSuite-pipeline.
+- **Visit [AmpliconSuite-pipeline](https://github.com/AmpliconSuite/AmpliconSuite-pipeline) to see the different ways to run AmpliconArchitect**. Includes links to containerized images, the no-installation web interface, and also instructions for standalone installation of AmpliconSuite-pipeline.
 
 ### Viewing existing collections of results
 - Visit [AmpliconRepository.org](https://ampliconrepository.org) to see publicly shared collections of AmpliconArchitect outputs.
