@@ -16,7 +16,7 @@ To improve reproducibility of the outputs and simplify output interpretation, we
 
 ## What tools are part of AmpliconSuite and what do they do?
 - ### [AmpliconArchitect](https://github.com/AmpliconSuite/AmpliconArchitect) (AA)
-Performs joint analysis of SVs and copy numbers to analyze the genome structure of focal amplifications and reports computational substructures. In some simple cases, the substructure will represent a complete ecDNA structure itself.
+Performs joint analysis of SVs and copy numbers to analyze the genome structure of focal amplifications and reports genome paths and cycles decomposed from the amplification breakpoint graph. In some simple cases, an individual cycle will represent the complete ecDNA structure itself.
 
 - ### [AmpliconClassifier](https://github.com/AmpliconSuite/AmpliconClassifier) (AC)
 Takes the outputs of AA and predicts the mechanism of focal amplification, and reports annotations such as the genome regions in the focal amplification, the genes present, the estimated copy numbers (bulk, not subclonal) and other properties including complexity and similarity scores.
@@ -26,6 +26,9 @@ Wraps the input preparation steps, AA and AC analysis in one pipeline containing
 
 - ### [AmpliconRepository](https://github.com/AmpliconSuite/AmpliconRepository)
 [AmpliconRepository.org](https://ampliconrepository.org) is an online platform for community sharing of AmpliconArchitect outputs and classification files. Developed in collaboration between members of Vineet Bafna's lab, Jill Mesirov's lab and the GenePattern team at UC San Diego.
+
+- ### [CoRAL](https://github.com/AmpliconSuite/CoRAL)
+A method for long read-based reconstruction of ecDNA candidate structures.
 
 ## Other utilities
 **[CycleViz](https://github.com/AmpliconSuite/CycleViz)**: Create circular visualizations of AA-identified focal amplification substructures, such as for ecDNA, and optionally show user-supplied genome track annotations. Can also support non-AA derived genome visualizations given a bed file.
