@@ -1,4 +1,4 @@
-![AmpliconSuite logo](https://raw.githubusercontent.com/AmpliconSuite/.github/main/profile/AmpliconSuiteGithub.png)
+![AmpliconSuite logo](https://raw.githubusercontent.com/AmpliconSuite/.github/main/profile/AmpliconSuite_GH_banner.png)
 
 ## Quickstart
 ### Running AmpliconArchitect
