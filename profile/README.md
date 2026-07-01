@@ -31,11 +31,12 @@ Wraps the input preparation steps, AA and AC analysis in one pipeline containing
 A method for long read-based reconstruction of ecDNA candidate structures.
 
 ## Other utilities
+**[BFBArchitect](https://github.com/AmpliconSuite/BFBArchitect)**: Detects and reconstructs breakage-fusion-bridge (BFB) cycles from long-read sequencing data or AmpliconArchitect-style breakpoint graphs. It produces breakpoint graph,
+  reconstructed cycle, read-support, and visualization outputs for amplified genomic regions.
+
 **[CycleViz](https://github.com/AmpliconSuite/CycleViz)**: Create circular visualizations of AA-identified focal amplification substructures, such as for ecDNA, and optionally show user-supplied genome track annotations. Can also support non-AA derived genome visualizations given a bed file.
 
 **[AmpliconReconstructorOM](https://github.com/AmpliconSuite/AmpliconReconstructorOM)**: Combines Bionano optical genome map assemblies with AmpliconArchitect to infer larger-scale scaffolds of the focal amplification structure.
-
-**[AmpliconSuiteAggregator](https://github.com/AmpliconSuite/AmpliconSuiteAggregator)**: Takes AmpliconSuite-pipeline output files and prepares them for upload to AmpliconRepository. Can be used via web interface at [genepattern.ucsd.edu](https://genepattern.ucsd.edu/gp/pages/login.jsf).
 
 **[ecSimulator](https://github.com/AmpliconSuite/ecSimulator)**: Simulate ecDNA genome structures with user-specified properties. Also allows simulation of sequencing reads from the structures.
 
