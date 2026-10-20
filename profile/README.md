@@ -14,6 +14,13 @@ At the core of AmpliconSuite is **AmpliconArchitect** (AA), a joint structural v
 
 To improve reproducibility of the outputs and simplify output interpretation, we created AmpliconSuite-pipeline, which wraps the relevant tools into a single analysis pipeline. **Please use AmpliconSuite-pipeline to invoke AmpliconArchitect**.
 
+## Citing AmpliconSuite
+If you use AmpliconSuite-pipeline, AmpliconRepository, or the AmpliconSuite workflow as a whole, please cite:
+
+Luebeck J, Liefeld T, Wong ITL, Huang E, et al. [AmpliconSuite: an end-to-end workflow for analyzing focal amplifications in cancer genomes](https://doi.org/10.1038/s41592-026-03264-x). *Nature Methods*. 2026.
+
+Individual tools such as AmpliconArchitect and CoRAL have their own publications. Please cite a tool's own paper when using it on its own, and see [CITATIONS.md](https://github.com/AmpliconSuite/AmpliconSuite-pipeline/blob/master/CITATIONS.md) for the tools the pipeline runs.
+
 ## What tools are part of AmpliconSuite and what do they do?
 - ### [AmpliconArchitect](https://github.com/AmpliconSuite/AmpliconArchitect) (AA)
 Performs joint analysis of SVs and copy numbers to analyze the genome structure of focal amplifications and reports genome paths and cycles decomposed from the amplification breakpoint graph. In some simple cases, an individual cycle will represent the complete ecDNA structure itself.
